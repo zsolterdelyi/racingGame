@@ -2,6 +2,9 @@ package org.fastrackit;
 
 public class Vehicle {
 
+
+    public static int applicationTotalNUmberOfVehicles;
+
    private String name;
    private String color;
    private double mileage;

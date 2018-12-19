@@ -2,10 +2,28 @@ package org.fastrackit;
 
 public class AutoVehicle extends Vehicle {
 
-    Engine engine;
-    boolean running;
+    private Engine engine;
+    private boolean running;
 
     public AutoVehicle(Engine engine) {
         this.engine = engine;
+    }
+
+    @Override
+    public Engine getEngine() {
+        return engine;
+    }
+
+    @Override
+    public void setEngine(Engine engine) {
+        this.engine = engine;
+    }
+
+    public boolean isRunning() {
+        return running;
+    }
+
+    public void setRunning(boolean running) {
+        this.running = running;
     }
 }
