@@ -12,16 +12,15 @@ public class App
 // comment instructions
  {
      Car firstCompetitor = new Car(new Engine());
-     firstCompetitor.name = "Dacia";
-     firstCompetitor.color = "black";
-     firstCompetitor.doorCount = 5;
-     firstCompetitor.mileage = 9.5;
+     firstCompetitor.setName("Dacioa");
+     firstCompetitor.setColor("black");
+     firstCompetitor.setMileage(9.5);
 
 
      // second init cars
 
      Car secondCompetitor = new Car(new Engine());
-     secondCompetitor.name = "masina";
+     secondCompetitor.setName("masina");
 
 
      Engine firstEngine = new Engine();
