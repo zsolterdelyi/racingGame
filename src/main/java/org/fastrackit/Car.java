@@ -16,12 +16,7 @@ public class Car extends AutoVehicle {
     Engine engine;
 
 
-
-
-
-
-
-
-
-
+    public Car(Engine engine) {
+        super(engine);
+    }
 }

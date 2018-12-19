@@ -11,7 +11,7 @@ public class App
     public static void main( String[] args )
 // comment instructions
  {
-     Car firstCompetitor = new Car();
+     Car firstCompetitor = new Car(new Engine());
      firstCompetitor.name = "Dacia";
      firstCompetitor.color = "black";
      firstCompetitor.doorCount = 5;
@@ -20,7 +20,7 @@ public class App
 
      // second init cars
 
-     Car secondCompetitor = new Car();
+     Car secondCompetitor = new Car(new Engine());
      secondCompetitor.name = "masina";
 
 
