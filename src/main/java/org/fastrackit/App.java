@@ -47,6 +47,9 @@ public class App
      System.out.println(testEngine);
 
 
+     double travDist = firstCompetitor.accelerate( 100, 4.5);
+     System.out.println( "distanta " + travDist);
+
  }
 
 }

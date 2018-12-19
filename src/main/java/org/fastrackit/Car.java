@@ -3,16 +3,19 @@ package org.fastrackit;
 import java.time.LocalDateTime;
 import java.util.Date;
 
-public class Car {
+
+// inheritance or "is-a" relationship
+
+public class Car extends AutoVehicle {
 
 
     // instance variables
     // default values, {null, 0 or false}
-    String name;
-    String color;
+
     int doorCount;
-    double mileage;
     Engine engine;
+
+
 
 
 
