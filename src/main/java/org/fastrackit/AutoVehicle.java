@@ -18,6 +18,11 @@ public class AutoVehicle extends Vehicle {
     public void setEngine(Engine engine) {
         this.engine = engine;
     }
+// constructor overloading
+    public AutoVehicle () {
+      this (new Engine());
+    }
+
 
     public boolean isRunning() {
         return running;

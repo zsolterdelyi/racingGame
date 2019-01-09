@@ -58,10 +58,12 @@ public class App
      Vehicle vehicle2 = new Vehicle();
 
 
+
+
+
      Vehicle.applicationTotalNUmberOfVehicles = 23;
 
         System.out.println("total from veh 2" + vehicle.applicationTotalNUmberOfVehicles);
 
  }
-
 }
