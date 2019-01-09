@@ -66,6 +66,16 @@ public class Vehicle {
 
     }
 
+    //co-variant return type
+    public Vehicle returnSomeVehicle() {
+        return this;
+    }
+
+
+
+
+
+
 //method overloading
     public double accelerate (double speed) {
 

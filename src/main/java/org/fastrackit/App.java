@@ -1,6 +1,7 @@
 package org.fastrackit;
 
 import com.sun.tools.internal.xjc.model.CArrayInfo;
+import org.fastrackit.cheater.CheatingCar;
 
 /**
  * Hello world!
@@ -50,20 +51,22 @@ public class App
 //     double travDist = firstCompetitor.accelerate( 100, 4.5);
 //     System.out.println( "distanta " + travDist);
 
-     Vehicle vehicle = new Vehicle();
-     vehicle.applicationTotalNUmberOfVehicles = 1;
-
-        System.out.println("total from vehicle 1" + 1);
-
-     Vehicle vehicle2 = new Vehicle();
-
-
-
-
-
-     Vehicle.applicationTotalNUmberOfVehicles = 23;
-
-        System.out.println("total from veh 2" + vehicle.applicationTotalNUmberOfVehicles);
+//     Vehicle vehicle = new Vehicle();
+//     vehicle.applicationTotalNUmberOfVehicles = 1;
+//
+//        System.out.println("total from vehicle 1" + 1);
+//
+//     Vehicle vehicle2 = new Vehicle();
+//
+//
+//
+//
+//
+//     Vehicle.applicationTotalNUmberOfVehicles = 23;
+//
+//        System.out.println("total from veh 2" + vehicle.applicationTotalNUmberOfVehicles);
 
  }
+CheatingCar cheatingCompetitor = new CheatingCar();
+
 }
