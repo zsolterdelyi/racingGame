@@ -66,7 +66,9 @@ public class App
 //
 //        System.out.println("total from veh 2" + vehicle.applicationTotalNUmberOfVehicles);
 
- }
-CheatingCar cheatingCompetitor = new CheatingCar();
 
+CheatingCar cheatingCompetitor = new CheatingCar();
+cheatingCompetitor.setName( );
+
+    }
 }
