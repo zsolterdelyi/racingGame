@@ -62,7 +62,7 @@ public class Vehicle {
         System.out.println( "Treveled distance " + distance + " km");
 
 
-        // unreachable statement : is after return !!!!!!    return distance;
+        // unreacable statement : is after return !!!!!!    return distance;
 
 
 
