@@ -52,17 +52,33 @@ public class Vehicle {
         this.totalKm = totalKm;
     }
 
+    private double fuelLevel = 70;
+
     public double accelerate (double speed, double durationInHours) {
 
         System.out.println(name + " accelerated with" + speed + "km/h for" + durationInHours + "hours.");
 
         double distance = speed * durationInHours;
         System.out.println( "Treveled distance " + distance + " km");
+
+
+        // unreachable statement : is after return !!!!!!    return distance;
+
+
+
+        double spentFuel = distance * mileage / 100;
+
+        fuelLevel -= spentFuel;
+
+        System.out.println( "Remaining fuel: " + fuelLevel);
+
+        totalKm += distance;
+
+        System.out.println("Total traveled distance: " + totalKm);
+
+
+
         return distance;
-
-
-
-
 
     }
 
