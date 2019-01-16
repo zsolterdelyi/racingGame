@@ -1,18 +1,24 @@
 package org.fastrackit;
 
-import com.sun.tools.internal.xjc.model.CArrayInfo;
-import org.fastrackit.cheater.CheatingCar;
-
 /**
  * Hello world!
  *
  */
 public class App
 {
-    public static void main( String[] args )
-//// comment instructions
-//
+    public static void main( String[] args ) {
+
+        Game game = new Game();
+
+        game.addTrack(0, new Track( "Highway", 300));
+        game.addTrack(1, new Track("Desert", 230));
+
+        game.displayAvailableTracks();
+    }
+
     {
+
+
 //     Car firstCompetitor = new Car(new Engine());
 //     firstCompetitor.setName("Dacioa");
 //     firstCompetitor.setColor("black");
@@ -67,8 +73,8 @@ public class App
 //        System.out.println("total from veh 2" + vehicle.applicationTotalNUmberOfVehicles);
 
 
-CheatingCar cheatingCompetitor = new CheatingCar();
-cheatingCompetitor.setName( );
+// CheatingCar cheatingCompetitor = new CheatingCar();
+// cheatingCompetitor.setName( );
 
     }
 }
