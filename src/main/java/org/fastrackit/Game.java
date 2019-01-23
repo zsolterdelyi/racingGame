@@ -40,6 +40,31 @@ public class Game {
 
         // Track track = getTrackNumber();
 
+
+        boolean noWinnerYet = true;
+        int competitorsWithoutFuel = 0;
+
+
+        while (noWinnerYet) {
+            for (Vehicle vehicle : competitors) {
+
+                double speed = gteVehicleAccelerationSpeedFromUser();
+                vehicle.accelerate(speed);
+
+          //      if (vehicle.){
+
+             //   }
+
+                if (vehicle.getTotalKm() >= track.getLenght()) {
+
+                    noWinnerYet = false;
+                    System.out.println("Congrats! The winner is: " + vehicle.getName());
+                    break;
+
+                }
+            }
+
+        }
     }
 
     private int getTrackNumberFromUser() throws Exception {
@@ -56,8 +81,8 @@ public class Game {
             System.out.println("Expected integer.");
             return getTrackNumberFromUser();
 
-        } finally {
-            System.out.println("ceva");
+       } finally {
+           System.out.println("ceva");
         }
 
 
